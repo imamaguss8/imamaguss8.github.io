@@ -597,7 +597,7 @@ footer {
   }
 
   #about {
-    min-height: 35rem;
+    min-height: 40rem;
   }
 
   .top-services {
@@ -610,9 +610,10 @@ footer {
     margin-top: -8.5rem;
   }
   #about .dg {
-    height: 27rem;
+    height: 35rem;
     z-index: -1;
     position: relative;
+    top: 5rem;
   }
 }
 
