@@ -1,0 +1,24 @@
+{
+  "name": "imamaguss.com",
+  "short_name": "imamaguss",
+  "description": "portfolio",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#414f57",
+  "start_url": ".",
+  "background_color": "#000",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/imam-tab.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/imam-tab.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
