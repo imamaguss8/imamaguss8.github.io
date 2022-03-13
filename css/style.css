@@ -15,56 +15,10 @@
   --jeda-color: rgb(243, 243, 242);
 }
 
-.dark-mode {
-  --bg-color: #666;
-  --fifth-color: #22577e;
-  --third-color: #f6f2d4;
-  --portfolio-color: #22577e;
+@font-face {
+  font-family: "Exo";
+  src: url("assets/Exo.ttf");
 }
-
-/* splash */
-/* .splash {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: 99999;
-  color: var(--secondary-color);
-  background: var(--bg-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.splash.display-none {
-  opacity: 0;
-  z-index: -99999;
-  transition: all 4s;
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 2s ease-in forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-.splash img {
-  animation: scaling 3.5s ease forwards;
-}
-
-@keyframes scaling {
-  from {
-    transform: scale(0.1);
-  }
-  to {
-    transform: scale(0.7);
-  }
-} */
-/* /splash */
 
 /* main style */
 body {
@@ -205,7 +159,6 @@ menu#contactMe.open > .trigger > i {
   width: var(--size);
   height: var(--size);
   font-size: var(--size);
-  /* box-shadow: 0px 1px 2px 2px rgba(255, 255, 255, 0.7); */
 }
 
 .top-btn a {
@@ -395,7 +348,7 @@ h2 {
 }
 .network .icon i {
   position: relative;
-  color: #bb6464;
+  color: #eca6a6;
 }
 
 .design .icon i {
@@ -413,7 +366,7 @@ h2 {
 }
 
 .network:hover .icon-box .icon svg {
-  fill: #bb6464;
+  fill: #eca6a6;
 }
 
 .network:hover a.btn {
@@ -610,7 +563,7 @@ footer {
     margin-top: -8.5rem;
   }
   #about .dg {
-    height: 35rem;
+    height: 34rem;
     z-index: -1;
     position: relative;
     top: 5rem;
@@ -683,7 +636,7 @@ footer {
 
 @media screen and (min-width: 1441px) {
   #about .dg {
-    height: 28rem;
+    height: 30rem;
   }
 
   .top-about,
