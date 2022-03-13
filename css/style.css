@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Exo";
-  src: url("assets/Exo.ttf");
+  src: url("../assets/Exo.ttf") format("truetype");
 }
 
 /* main style */
