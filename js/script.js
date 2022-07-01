@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 // typing who am i
 var options = {
-  strings: ["Web Developer", "Technician", "Freelancer"],
+  strings: ["Graphic Designer", "Teknisi", "Web Developer", "Freelancer"],
   typeSpeed: 120,
   backSpeed: 100,
   loop: true,
